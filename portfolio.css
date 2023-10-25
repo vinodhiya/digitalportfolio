@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*:root {
+  --primary-color: #fff;
+  --primary-shade: #f7f5f2;
+  --seconday-color: #000;
+  --secondary-shade: #4b4c4c;
+  --red-color: #d40700;
+  --red-shade: #b20600;
+  --accent-color: #ffee63;
+}*/
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(50, 50, 51, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(to right, #040404, #242424, #656565);
+  color: var(--primary-color);
+}
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+.logo {
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+.details {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+.details h1 {
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+span {
+  color: orange;
+}
+.details p {
+  line-height: 30px;
+  color: #d9d9d9;
+  font-size: 20px;
+}
+.image {
+  position: absolute;
+  bottom: 280px;
+  right: 100px;
+  margin-right: 160px;
+  width: 270px;
+  height: 270px;
+  border-radius: 200px;
+}
+.icons a {
+  text-decoration: none;
+  color: #000;
+}
+
+.icons ion-icon {
+  margin-left: 7%;
+  margin-top: 20px;
+  color: #ebebeb;
+  font-size: 40px;
+  transition: 0.4s ease;
+}
+
+.icons ion-icon:hover {
+  color: rgb(59, 174, 209);
+}
