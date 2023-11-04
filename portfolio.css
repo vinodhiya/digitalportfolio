@@ -3,15 +3,6 @@
   padding: 0;
   font-family: sans-serif;
 }
-/*:root {
-  --primary-color: #fff;
-  --primary-shade: #f7f5f2;
-  --seconday-color: #000;
-  --secondary-shade: #4b4c4c;
-  --red-color: #d40700;
-  --red-shade: #b20600;
-  --accent-color: #ffee63;
-}*/
 .hero {
   position: relative;
   width: 100%;
